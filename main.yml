@@ -1,0 +1,6 @@
+---
+- name: Simple playbook to install gentoo in Hetzner
+  hosts:
+    - all
+  roles:
+    - ansible-gentoo-installer
